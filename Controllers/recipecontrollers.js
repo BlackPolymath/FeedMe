@@ -1,16 +1,13 @@
 const express = require("express");
 const router = express.Router();
-//const Todos = require('../models/todoModel)
 
 router.get("/:id", (req, res) => {
-  console.log("specific recipe");
+  console.log("one recipe");
 });
 
-router.post("/create", (req, res) => {});
 
 router.get("/", (req, res) => {
-  console.log("in the items route");
-  res.render("indexrouter");
+  res.render("indexviews");
 });
 
 module.exports = router;
