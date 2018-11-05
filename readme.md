@@ -26,8 +26,8 @@ There will be a form for users to add recipes.
 
 User Stories:
 
-I can view a list of all recipes
-I can click on a recipe title and go to the full recipe
-I can add a recipe
-I can delet a recipe
+-I can view a list of all recipes
+-I can click on a recipe title and go to the full recipe
+-I can add a recipe
+-I can delete a recipe
 
