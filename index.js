@@ -4,7 +4,7 @@ const RecipeCtrl = require("./controllers/recipecontrollers");
 
 app.set("view engine", "hbs");
 
-app.get("/", RecipeCtrl);
+app.use(RecipeCtrl);
 
 app.listen(5000, () => {
   console.log("listening on port 5000");
